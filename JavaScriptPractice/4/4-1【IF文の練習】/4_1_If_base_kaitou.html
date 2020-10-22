@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+	<script type="text/javascript">
+	<!--
+		//①文字入力ダイアログボックスを作りましょう。
+		//案内メッセージは"パスワードを入力してください"です。
+		//テキストボックスの初期メッセージはなし
+		//※とりあえずここまでで実行して正しいかを確認-----------------------
+
+		//★document.write(prompt('パスワードを入力してください',''));
+
+		//②passという変数を作成して、promptの実行結果(戻り値)を格納するようにしてください。
+		//※とりあえずここまでで実行して正しいかを確認-----------------------
+
+		//pass =まで記載して、上でできた正しいものを「コピペ」する
+		//★pass = document.write(prompt('パスワードを入力してください',''));
+
+		//③【If文】pass変数に入力された値が"password"だったら"こんにちは"を、
+		//"pass"だったら"Hello!!"を、
+		//"pwd"だったら"./hogehoge/hoge"を、
+		//それ以外の値だったら"それ以外"を出力するプログラムを書いてください。
+
+		//ほとんどコピペで書けますよ。
+		//なるべく手打ちをやめましょう(ミスが増える)。
+
+		pass = prompt('パスワードを入力してください','');
+
+		if ( pass == "password" ) {
+			document.write("こんにちは");
+		} else if ( pass == "pass" ) {
+			document.write("Hello!!");			
+		} else if ( pass == "pwd" ) {
+			document.write("./hogehoge/hoge");			
+		} else {
+			document.write("それ以外");			
+		}
+
+
+	//-->
+
+	</script>
+
+</body>
+
+</html>
