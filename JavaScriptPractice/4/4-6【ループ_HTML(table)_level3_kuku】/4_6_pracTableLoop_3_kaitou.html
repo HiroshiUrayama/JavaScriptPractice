@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+	<script type="text/javascript">
+		<!--
+			//最初にtableタグを書く
+			document.write('<table border="1" align="left">')
+
+			//for文で連続的に記載していく(0～9まで)
+			//7の倍数だったら改行する(<br>タグを記載する)
+
+			for( i = 1 ; i <= 81 ; i++ ) {
+				if ( i % 9 == 1 ) {
+					document.write('</tr>' + '<tr>');
+					document.write('<td>' + i + '</td>')
+				} else {
+					document.write('<td>' + i + '</td>')
+				}
+			}
+			//最後にtableタグを閉じる
+			document.write('</table>')
+		//-->
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>practableloop3</title>
+</head>
+<body>
+	<script type="text/javascript">
+		<!--
+			//①ansという変数を初期化し0で入力してください。
+			//★これだけです。
+			ans = 0;
+
+			//②0～20までのループをfor文で作成し、ans変数を2ずつ加算させてください。
+			//★小ステップずつ実施します。
+			//この発想がとっても大事です。
+			/*for ( i = 0 ; i < 20 ; i++ ) {
+				ans = i * 2;
+				document.write(i);
+			}*/
+
+			//③ansが10以上になったらループを抜けるコードを書いてください。
+			//★完成しているところにIf文を入れます。
+			//一つずつやりましょう。
+			for ( i = 0 ; i < 20 ; i++ ) {
+				ans = i * 2;
+				if (ans < 10) {
+					document.write(ans);
+					//◇ループを抜けます。
+				} else {
+					break;
+				}
+			}
+		//-->
+	</script>
+</body>
+
+</html>
