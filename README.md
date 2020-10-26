@@ -1,6 +1,6 @@
 # JavaScriptPractice
 
-DW方法
+DW方法  
 1.右上に緑色のボタン、"code"があると思います。押下してください。  
 2.zip　Downloadをクリック  
 3.デスクトップに"JavaScriptPractice"というフォルダがダウンロードされます。  
