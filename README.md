@@ -2,7 +2,9 @@
 
 DW方法
 1.右上に緑色のボタン、"code"があると思います。押下してください。
-2.
+2.zip　Downloadをクリック
+
+![DW](https://user-images.githubusercontent.com/53825254/97133256-b5546780-178c-11eb-9069-88d39784bb62.JPG)
 
 テキストの内容(授業で模写したもの、練習問題)を
 mondai
